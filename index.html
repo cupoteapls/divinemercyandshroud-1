@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<!-- <script 
+  <!-- <script
 	src="https://code.jquery.com/jquery-3.1.1.min.js"
 	integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
 	crossorigin="anonymous"></script>
@@ -61,9 +61,7 @@
         </div>
       </div>
     </nav> -->
-    <div id="top-header" class="centered row p-5 text-center">
-      <h1 class="lead display-4">Discover Divine Mercy and the Shroud of Turin</h1>
-    </div>
+    
 
     <nav id="mainNavbar" class="navbar navbar-expand-md py-2 fixed-top">
       <div class="container">
@@ -72,14 +70,16 @@
         </div>
       </div>
     </nav>
-      
-      
-    </div>
-    </div>
+    
 
-    <div class="row">
+    <div class="row"></div>
+    <!-- <div class="d-flex p-5 padding-box"></div> -->
 
-    </div>
+    <section>
+      <div id="top-header" class="lead display-4 p-5 text-center container">
+        <p class="">Discover Divine Mercy and the Shroud of Turin</p>
+      </div>
+    </section>
 
     
 
@@ -89,7 +89,7 @@
             <div class="col-lg-6">
                 <div id="headingGroup" class="text-center">
                   <div class="row justify-content-center">
-                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                    <div class="col-10 blurb p-4">
                       <blockquote class="blockquote text-center">
                         <p class="mb-0 lead">“Tell all that I am Love and Mercy itself. When a soul 
                             approaches Me with trust, I fill it with such an abundance of graces that it cannot 
@@ -127,7 +127,7 @@
                     </div>
                 </form>
         
-                <figure class="image overlay">
+                <figure id="image-overlay" class="image overlay">
                     <img src="Divine%20Mercy%20Picture%20and%20Shroud%20of%20Turin%20overlay_files/Kazimirowski_Eugeniusz_Divine_Mercy_1934_pos.jpg" class="dmpn">
                     <img src="Divine%20Mercy%20Picture%20and%20Shroud%20of%20Turin%20overlay_files/Full_length_negatives_of_the_shroud_of_Turin_pos.jpg" class="srt" style="opacity: 0;">
                 </figure>
@@ -135,19 +135,18 @@
             </section>
         </div>
 
-        <div class="d-flex p-4 padding-box"></div>
-        
+        <div class="d-flex p-4 padding-box"></div>        
 
         <section class="container-fluid px-0">
           <div id="banner-2" class="row align-items-center">
               <div id="shroud-bg" class="p-4 col-lg-6 centered">
-                <div class="w-75 flip-card img-fluid ">
+                <div id="shroud-flipcard" class="mx-auto w-75 flip-card img-fluid ">
                   <div class="flip-card-inner img-fluid ">
                     <div class="flip-card-front img-fluid">
-                      <img class="img-fluid img-thumbnail" src="Divine Mercy Picture and Shroud of Turin overlay_files/Full_length_negatives_of_the_shroud_of_Turin.jpg" alt="">
+                      <img id="shroud-flip-image" class="img-fluid img-thumbnail" src="Divine Mercy Picture and Shroud of Turin overlay_files/Full_length_negatives_of_the_shroud_of_Turin.jpg" alt="">
                     </div>
                     <div class="flip-card-back">
-                      <img class="w-75 img-fluid img-thumbnail" src="imgs/shroud-painting.jpg" alt="">
+                      <img id="shroud-flip-image" class="w-75 img-fluid img-thumbnail" src="imgs/shroud-painting.jpg" alt="">
                     </div>
                   </div>
                 </div>
@@ -170,6 +169,10 @@
                           in human history, and we 
                           know more about it today than we ever have before. Shroud.com keeps the public abreast of current research, 
                           provides them with accurate data and lets you interact with the researchers themselves.</p>
+                          <div class="d-flex p-2 padding-box"></div>
+                          <div id="mx-auto">
+                            <iframe id="shroud-iframe" src="https://www.youtube.com/embed/18WxFaLHS6g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </div>
                           <div class="d-flex p-2 padding-box"></div>
                           <p>Scroll down to learn more about the Shroud.</p>
                       </div>
@@ -593,7 +596,10 @@
                     <p class="collapse lead mb-5" id="collapseExample">
                       As St. Faustina did not know how to paint, with the aid of her
                       Spiritual Director she found and commissioned Kazimirowski Eugeniusz to paint the image who finished it in 1934.
-                      She meticulously instructed Kazimirowski to paint the vision that she had experienced of Jesus. This original painting
+                      She meticulously instructed Kazimirowski to paint the vision that she had experienced of Jesus. The main objective
+                      behind this vision was for Jesus to remind the world through St. Faustina and this painting of his 
+                      Divine Love and Mercy (hence, it's title - The Divine Mercy image), and to trust in him, as the famous title reads,
+                      "Jesu Ufam Tobie" (Jesus I Trust in You). This original painting
                       can be found today in the Divine Mercy Chapel in Vilnius, Lithuania. In her visions she would sometimes even converse
                       with Jesus. She recorded all her dialogues with Jesus in her diary.
                     </p>
@@ -603,21 +609,21 @@
                 </div>
               </div>
               <div id="divinemercy-bg" class="p-4 col-lg-6">
-                <img id="divinemercy-bg"class="w-50 img-fluid img-thumbnail" src="C:\Users\shenu\Local work\Leaflet\Webpage\Divine Mercy Picture and Shroud of Turin overlay_files\Kazimirowski_Eugeniusz_Divine_Mercy_1934_pos.jpg" alt="">
+                <img id="divinemercy-bg"class="w-50 img-fluid img-thumbnail" src="Divine Mercy Picture and Shroud of Turin overlay_files/Kazimirowski_Eugeniusz_Divine_Mercy_1934_pos.jpg" alt="">
               </div>
           </div>
       </section>
     <!--  -->
 
     <div class="d-flex p-4 padding-box"></div>
-    <h1>Anthropologist Prof. Zbigniew Treppa explains the convergence phenomenon of the two images</h1>
+    <h1 class="p-2">Anthropologist Prof. Zbigniew Treppa explains the convergence phenomenon of the two images</h1>
 
-    <div class="row">
+    <!-- <div class="row"> -->
       <div class="w-50 ui container">
           <div class="embed-responsive embed-responsive-16by9">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/YFGylmGl-KI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-      </div>
+      <!-- </div> -->
     </div>
     </div>
   
@@ -643,7 +649,7 @@
                     <footer class="blockquote-footer">Jesus Christ, John 3:16</footer>
                   </blockquote>
                   <div class="d-flex p-4 padding-box"></div>
-                  <a href="https://www.youtube.com/watch?v=TT4JAxfhgcQ&ab_channel=AscensionPresents" type="button" class="btn" id="discover-button"><span>Discover more about Jesus...</span></a>
+                  <a href="discover-jesus.html" type="button" class="btn" id="discover-button"><span>Discover more about Jesus...</span></a>
                   <div class="d-flex p-4 padding-box"></div>
                 </div>
               </div>
