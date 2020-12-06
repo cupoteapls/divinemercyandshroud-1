@@ -142,11 +142,12 @@ body {
 }
 
 
-.ui.cards > .card {
+#shroud-cards.ui.cards > .card {
 	width: 14.6em;
+	height: 20em;
 }
 
-.ui.card>.image>img, .ui.cards>.card>.image>img  {
+#shroud-cards.ui.card>.image>img, .ui.cards>.card>.image>img  {
 		width: 100%;
 		height: 12em;
 		object-fit: cover;	
