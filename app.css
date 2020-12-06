@@ -24,7 +24,9 @@ body {
 	color: #707070;
 }
 
-
+#accordian-images {
+	width: 100%;
+}
 
 .ui.icon.input>input {
     padding-right: 2vw!important;
