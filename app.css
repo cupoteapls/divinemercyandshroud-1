@@ -24,15 +24,13 @@ body {
 	color: #707070;
 }
 
-.gray-text p{
-	margin: 0.5em;
-}
+
 
 .ui.icon.input>input {
-    padding-right: 8vw!important;
+    padding-right: 2vw!important;
 }
 .header {
-	font-size: 3vw;
+	font-size: 3em;
 	font-family: Segoe UI;
 }
 
@@ -42,7 +40,7 @@ body {
 	color: white;
 	background-color: #216087;
 	/* border: 2px solid black; */
-	padding: 0.5vw 3vw 0.5vw 3vw;
+	padding: 0.5em 3em 0.5em 3em;
 	width: auto;
 	height: auto;
 }
