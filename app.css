@@ -204,6 +204,8 @@ body {
   #shroud-flip-image {
 	  height: 100%;
 	  object-fit: contain;
+	  background: transparent;
+	  border: transparent;
   }
   
   .flip-card:hover .flip-card-inner {
