@@ -38,11 +38,21 @@ body {
 	border-radius: 25px;
 	text-align: center;
 	color: white;
-	background-color: #216087;
+	background-color: #388dc2;
 	/* border: 2px solid black; */
 	padding: 0.5em 3em 0.5em 3em;
 	width: auto;
 	height: auto;
+	border: transparent;
+}
+
+.search-button a{
+	color: white;
+}
+
+.search-button:hover{
+	background-color: #216087;
+	color: white;
 }
 
 #intro-video {
