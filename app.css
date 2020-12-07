@@ -25,8 +25,13 @@ body {
 }
 
 #accordian-images {
-	width: 100%;
+	width: 25rem;
+	padding: 2em;
 }
+
+/* #accordian-imagecontainer {
+	width: 20vw;
+} */
 
 .ui.icon.input>input {
     padding-right: 2vw!important;
